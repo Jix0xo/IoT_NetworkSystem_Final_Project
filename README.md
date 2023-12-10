@@ -1,5 +1,5 @@
-IoT 통신시스템 기말 프로젝트 최종 코드
 # IoT_NetworkSystem_Final_Project
+IoT 통신시스템 기말 프로젝트 최종 코드
 
 // 기능 A 코드 
 // 온습도와 미세먼지 값 게이트웨이에 전송
