@@ -18,11 +18,11 @@ char buffer[32];                            // 데이터를 임시로 저장할 
 
 int temp, humi, dust;                        // 센서에서 측정한 온도, 습도, 미세먼지 값
 
-char ssid[] = "Me";                          // WiFi SSID
-char pass[] = "jio12345";                    // WiFi 비밀번호
+char ssid[] = "*******";                          // WiFi SSID
+char pass[] = "*******";                    // WiFi 비밀번호
 
-unsigned long myChannelNumber = 2354928;    // ThingSpeak 채널 번호
-const char* myWriteAPIKey = "WE1XH234A6AHAMPR";  // ThingSpeak Write API 키
+unsigned long myChannelNumber = *******;    // ThingSpeak 채널 번호
+const char* myWriteAPIKey = "***********";  // ThingSpeak Write API 키
 
 void setup() {
   ATSerial.begin(115200);
