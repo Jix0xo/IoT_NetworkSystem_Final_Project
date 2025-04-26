@@ -108,7 +108,7 @@ void loop() {
       DebugSerial.println(SNIPE.lora_getSnr());
 
       // ThingSpeak에 데이터 전송
-      int x = ThingSpeak.writeFields(2364071, "2D6VHEY3GPSJMTGI");
+      int x = ThingSpeak.writeFields(********, "****************");
 
       if (x == 200) {
         Serial.println("Channel update successful.");
